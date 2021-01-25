@@ -13,17 +13,17 @@ var walkTimer;
 var WALKSPEED = 2;
 
 function preload() {
-    gardenImg = loadImage('images/garden.png');
+    gardenImg = loadImage('garden.png');
 
-    cLay = loadImage('images/cat1.png');
-    cWa1 = loadImage('images/cat2.png');
-    cWa2 = loadImage('images/cat3.png');
-    cSit = loadImage('images/cat4.png');
+    cLay = loadImage('cat1.png');
+    cWa1 = loadImage('cat2.png');
+    cWa2 = loadImage('cat3.png');
+    cSit = loadImage('cat4.png');
 
-    mChs = loadImage('images/mouse1.png');
-    mHnd = loadImage('images/mouse2.png');
-    mTng = loadImage('images/mouse3.png');
-    mGls = loadImage('images/mouse4.png');
+    mChs = loadImage('mouse1.png');
+    mHnd = loadImage('mouse2.png');
+    mTng = loadImage('mouse3.png');
+    mGls = loadImage('mouse4.png');
 }
 
 function setup(){
